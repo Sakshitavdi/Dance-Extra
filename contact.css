@@ -1,0 +1,129 @@
+
+#a{ 
+    background-color:black;
+    border: 2px solid #ffffff;
+      height: 100px; 
+      display: flex;
+      justify-content:space-between;
+      align-items: center;
+      
+  }
+
+  #a1{
+    border: 2px solid transparent;
+    height: 80px;
+    width: 500px;
+    display: flex;
+    justify-content:center;
+    gap: 30px;
+    align-items: center;
+}
+#a2{
+    border: 2px solid transparent;
+    color: white;
+    height: 80px;
+    width: 500px;
+    display: flex;
+    justify-content:center;
+    gap: 30px;
+    align-items: center;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#a3{
+    border: 2px solid transparent;
+    height: 80px;
+    width: 600px;
+    display: flex;
+    justify-content:center;
+    gap: 50px;
+    align-items: center;
+   
+}
+#a0{
+    border: 2px solid transparent;
+    height: 30px;
+    display: flex;
+    color:white;
+    /* font-size: larger; */
+    font-size: 20px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: bold;
+
+
+}
+#a0 a{
+    text-decoration: none;
+}
+#a0:hover{
+    background-color: white;
+color:black;
+border-radius: 4%;
+
+}
+
+#a4{
+    border: 2px solid transparent;
+    height: 80px;
+    width: 200px;
+    display: flex;
+    justify-content:center;
+    gap: 50px;
+    align-items: center;
+}
+#b{
+    border: 2px solid transparent;
+    height: 30px;
+    display: flex;
+    color:white;
+    font-size: larger;
+    font-size: 20px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: bold;
+}
+
+#b:hover{
+    
+     background-color: white;
+    color:black;
+    border-radius: 4%; 
+}
+
+.login-form-container{
+    background-color:#f6f6f6;
+    height: 100vh;
+   
+    
+}
+
+form{
+   height: 800px;
+    width: 600px;
+    margin-bottom: 10%;
+align-items: center;
+   border-radius: 2%; 
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+}
+input{
+   font-size: 20px; 
+   width: 600px;
+   height:50px;
+}
+label{
+    font-size: 40px; 
+   
+}
+.btn{
+    background-color: lightblue;
+}
+#a0 a{
+    text-decoration: none;
+    color:white;
+}
+#a0 a:hover{
+    color: black;
+}

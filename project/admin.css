@@ -1,0 +1,101 @@
+#rr{
+    border: 2px solid transparent;
+    border-bottom:2px solid black ;
+    background-color: rgb(219, 155, 233);
+      height: 80px; 
+      display: flex;
+      justify-content:space-between;
+      align-items: center;
+      
+  }
+  .ma:hover{
+background-color: black;
+color: white;
+border-radius: 6%;
+  }
+
+  .ma a{
+    text-decoration: none;
+    color:black ;
+  }
+  .ma a:hover{
+    background-color: black;
+    color: white;
+  }
+
+
+
+
+  .button{
+    border: 2px solid transparent;
+      height: 100px; 
+      display: flex;
+      justify-content:space-between;
+      align-items: center;
+  }
+  .button a{
+    text-decoration: none;
+    box-shadow: -1px 0px 10px 0px black;
+  }
+.button1 a,.button2 a{
+  box-shadow: -1px 0px 10px 0px black;
+}
+  .button1{
+    border: 2px solid transparent;
+      height: 100px; 
+      display: flex;
+      justify-content:space-between;
+      align-items: center;
+      /* box-shadow: -1px 0px 10px 0px black; */
+  }
+  .button2{
+    border: 2px solid transparent;
+      height: 100px; 
+      display: flex;
+      justify-content:space-between;
+      align-items: center;
+  }
+
+  #aa{
+      border: 2px solid transparent;
+      height: 60px;
+      width: 600px;
+      display: flex;
+      justify-content:center;
+      gap: 80px;
+      align-items: center;
+  }
+  .ma{
+      border: 2px solid transparent;
+      height: 40px;
+      display: inline;
+      color: black;
+      font-size: 30px;
+  }
+  .Insert{
+    color: white;
+    height: 50px;
+    width: 300px;
+    font-size: 25px;
+    background-color: rgb(116, 192, 116);
+    border-radius: 4px;
+    display: flex;
+justify-content: center;
+    gap: 30px;
+}
+.Update{
+    color: white;
+    height: 50px;
+    width: 300px;
+    font-size: 25px;
+    background-color: lightseagreen;
+    border-radius: 4px;
+}
+.Delete{
+    color: white;
+    height: 50px;
+    width: 300px;
+    font-size: 25px;
+    background-color: orange;
+    border-radius: 4px;
+}
